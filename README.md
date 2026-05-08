@@ -29,5 +29,20 @@ git - for all commands
                 [ ls ]
 # FOR HIDDEN FILES :-
                  [ ls -a ]
+                 
+# TO DISPLAY STATUS OF CODE :- 
+                 [ git status ]
+                 
+1. git aleays tracks history matlab ("file me kya  kb alter hua yhe sab dektha hai git")
+2. untracked files :- files which is not a part of git or not uploaded on git via comit ( git in files ko track nahi kr pyega )
+
+# COMMIT NEW FILES IN GIT :- 2 step process
+
+1. ADD :- new or modified files in working directory -> {modified to staged status}
+             [ git add (file name) ]
+             [ git add .]           all files add 
+
+2. COMMIT :- it is the record of change
+             [ git commit -m "some msg" ]
 
 
