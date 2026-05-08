@@ -25,15 +25,17 @@ after instralling git use gitblash or terminal to check version by using command
 # SET OR NOT   :- 
                  [ git config --list ]
 
-# FOR CLONE :- if any file which is not in local system but present online in github we use clone command TO MAKE CLONE OF ONLINE                 FILE TO LOCAL SYSTEM
+# FOR CLONE :- 
+if any file which is not in local system but present online in github we use clone command TO MAKE CLONE OF ONLINE                 FILE TO LOCAL SYSTEM
+               
                 [ git clone (link of file n terminal) ---- website se pc par ]
 # TO CHECK LIST OF FILES :-
                 [ ls ]
 # FOR HIDDEN FILES :-
-                 [ ls -a ]
+                [ ls -a ]
                  
 # TO DISPLAY STATUS OF CODE :- 
-                 [ git status ]
+                [ git status ]
                  
 1. git aleays tracks history matlab ("file me kya  kb alter hua yhe sab dektha hai git")
 2. untracked files :- files which is not a part of git or not uploaded on git via comit ( git in files ko track nahi kr pyega )
