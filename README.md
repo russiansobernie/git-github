@@ -39,10 +39,17 @@ git - for all commands
 # COMMIT NEW FILES IN GIT :- 2 step process
 
 1. ADD :- new or modified files in working directory -> {modified to staged status}
+
              [ git add (file name) ]
-             [ git add .]           all files add 
+             [ git add .]           
+all files add 
 
 2. COMMIT :- it is the record of change
              [ git commit -m "some msg" ]
+
+git status show krega your branch is ahead of by 1 commit - matlab ("mai apne local system pe github se 1 commit aaghe hu")
+
+3. PUSH :- upload local commits/files to gitnub/ online
+                 [ git push origin main ]
 
 
