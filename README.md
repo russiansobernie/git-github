@@ -9,10 +9,12 @@ commit - any changes done by user (add,delete,alter) user have to commit the cha
 
 instrall git from google.
 after instralling git use gitblash or terminal to check version by using command that insures that git is downloaded properly - {git --version} 
-commands :- 
-git --version - to check version
-pwd - to check path
-git - for all commands
+
+# COMMANDS:- -------------------------------------------------------------------------------------------------
+
+# git --version - to check version
+# pwd - to check path
+# git - for all commands
 
 # FOR USER NAME :- 
                    [ git config --global user.name "username" ]
@@ -45,11 +47,13 @@ git - for all commands
 all files add 
 
 2. COMMIT :- it is the record of change
-             [ git commit -m "some msg" ]
+
+                  [ git commit -m "some msg" ]
 
 git status show krega your branch is ahead of by 1 commit - matlab ("mai apne local system pe github se 1 commit aaghe hu")
 
 3. PUSH :- upload local commits/files to gitnub/ online
-                 [ git push origin main ]
+
+                    [ git push origin main ]
 
 
